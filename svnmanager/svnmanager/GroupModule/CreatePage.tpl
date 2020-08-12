@@ -6,7 +6,7 @@
 	<tr>
 		<th>メニュー</th>
 		<td>
-			<com:TTextBox ID="Name" MaxLength="32" Columns="16"/>
+			<com:TTextBox ID="Name" MaxLength="128" Columns="16"/>
 			<com:TRequiredFieldValidator ControlToValidate="Name" Display="Dynamic">
 			新規作成するグループの名前を入力してください
 			</com:TRequiredFieldValidator>

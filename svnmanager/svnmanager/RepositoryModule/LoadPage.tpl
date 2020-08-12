@@ -6,7 +6,7 @@
 	<tr>
 		<th>リポジトリ名</th>
 		<td>
-			<com:TTextBox ID="Name" MaxLength="32" Columns="16"/>
+			<com:TTextBox ID="Name" MaxLength="128" Columns="16"/>
 			<com:TRequiredFieldValidator ControlToValidate="Name" Display="Dynamic">
 			新規作成するリポジトリの名前を入力してください
 			</com:TRequiredFieldValidator>

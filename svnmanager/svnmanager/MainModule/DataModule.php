@@ -146,7 +146,7 @@ class DataModule extends TModule
             $this->Database->Execute("
               CREATE TABLE groups (
                 id integer primary key".$ac.",
-                name varchar(32) NOT NULL default '',
+                name varchar(128) NOT NULL default '',
                 adminid integer NOT NULL default '0'									
               );
             ");
@@ -168,7 +168,7 @@ class DataModule extends TModule
             $this->Database->Execute("
               CREATE TABLE repositories (
                 id integer  primary key".$ac.",
-                name varchar(32) NOT NULL default '',
+                name varchar(128) NOT NULL default '',
                 ownerid integer NOT NULL default '0',
                 description varchar(128) NOT NULL default ''
               );			
